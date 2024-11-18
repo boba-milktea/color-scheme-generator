@@ -15,10 +15,10 @@
 ### Requirements
 
 - Build a color scheme generator
-  - Choose "seed color" with an <input type="color"/>
-  - Choose color scheme mode in a <select> box
-  - Clicking button makes a request to [The Color API](https://www.thecolorapi.com/) to get a color scheme
-  - Display the scheme colors and hex values on the page
+- Choose "seed color" with an <input type="color"/>
+- Choose color scheme mode in a <select> box
+- Clicking button makes a request to [The Color API](https://www.thecolorapi.com/) to get a color scheme
+- Display the scheme colors and hex values on the page
     
 
 ### Links
@@ -26,7 +26,7 @@
 - Solution URL: [https://github.com/boba-milktea/color-scheme-generator.git](https://github.com/boba-milktea/color-scheme-generator.git)
 - Live Site URL: [Learning Journal Pages](https://color-scheme-generator-boba.netlify.app)
 
-## My process
+### My process
 
 The 1st version completed on 18 Novemeber, 2024
 
