@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Color Shceme Generator</title>
+  </head>
+  <body>
+    <main>
+      <section class="querry-container">
+        <label for="select-color"></label>
+        <input
+          class="select-color"
+          type="color"
+          id="select-color"
+          name="select-color"
+          value="#F55A5A"
+        />
+        <label for="color-scheme"></label>
+        <select name="color-scheme" id="color-scheme" class="dropdown">
+          <option value="monochrome" selected>Monochrome</option>
+          <option value="monochrome-dark">Monochrome-dark</option>
+          <option value="monochrome-light">Monochrome-light</option>
+          <option value="analogic">Analogic</option>
+          <option value="complement">Complement</option>
+          <option value="analogic-complement">Analogic-complement</option>
+          <option value="triad">Ariadt</option>
+          <option value="quad">Quad</option>
+        </select>
+        <button class="btn" id="getColorBtn">Get color scheme</button>
+      </section>
+      <section class="color-container" id="color-container">
+        <div class="color-value" id="color-0"></div>
+        <div class="color-value" id="color-1"></div>
+        <div class="color-value" id="color-2"></div>
+        <div class="color-value" id="color-3"></div>
+        <div class="color-value" id="color-4"></div>
+        <div class="hex-value" id="hex-0">#F55A5A</div>
+        <div class="hex-value" id="hex-1">#2B283A</div>
+        <div class="hex-value" id="hex-2">#FBF3AB</div>
+        <div class="hex-value" id="hex-3">#AAD1B6</div>
+        <div class="hex-value" id="hex-4">#A626D3</div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
