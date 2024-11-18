@@ -20,7 +20,6 @@
 - Clicking button makes a request to [The Color API](https://www.thecolorapi.com/) to get a color scheme
 - Display the scheme colors and hex values on the page
     
-
 ### Links
 
 - Solution URL: [https://github.com/boba-milktea/color-scheme-generator.git](https://github.com/boba-milktea/color-scheme-generator.git)
@@ -42,6 +41,4 @@ The 1st version completed on 18 Novemeber, 2024
 
 - REST
 - URL method
-- Foor loop 
- 
- 
+- For loop 
