@@ -17,10 +17,9 @@
 - Build a color scheme generator
   - Choose "seed color" with an <input type="color"/>
   - Choose color scheme mode in a <select> box
-  - Clicking button makes request to [The Color API]([https://github.com/eshan-one/Color-Scheme-API-](https://www.thecolorapi.com/)) to get a color scheme
+  - Clicking button makes a request to [The Color API](https://www.thecolorapi.com/) to get a color scheme
   - Display the scheme colors and hex values on the page
     
-
 
 ### Links
 
